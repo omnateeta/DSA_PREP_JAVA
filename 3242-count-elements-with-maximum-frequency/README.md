@@ -3,7 +3,7 @@
 <p>Return <em>the <strong>total frequencies</strong> of elements in</em><em> </em><code>nums</code>&nbsp;<em>such that those elements all have the <strong>maximum</strong> frequency</em>.</p>
 
 <p>The <strong>frequency</strong> of an element is the number of occurrences of that element in the array.</p>
-
+ 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
