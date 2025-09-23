@@ -4,7 +4,7 @@
 
 <p>Return the following:</p>
 
-<ul>
+<ul> 
 	<li>If <code>version1 &lt; version2</code>, return -1.</li>
 	<li>If <code>version1 &gt; version2</code>, return 1.</li>
 	<li>Otherwise, return 0.</li>
