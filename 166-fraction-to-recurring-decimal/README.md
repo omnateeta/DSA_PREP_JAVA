@@ -5,7 +5,7 @@
 <p>If multiple answers are possible, return <strong>any of them</strong>.</p>
 
 <p>It is <strong>guaranteed</strong> that the length of the answer string is less than <code>10<sup>4</sup></code> for all the given inputs.</p>
-
+ 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
