@@ -19,7 +19,7 @@ class Solution {
             return null;
         return getBST(nums,0,nums.length-1);
     }
-    public TreeNode getBST(int [] nums, int startIdx, int endIdx){
+    public TreeNode getBST(int [] nums, int startIdx, int endIdx){ 
         if(startIdx > endIdx)
             return null;
         int middleIdx = (startIdx + endIdx) / 2;
