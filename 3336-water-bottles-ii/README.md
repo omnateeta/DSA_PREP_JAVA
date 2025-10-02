@@ -2,7 +2,7 @@
 
 <p><code>numBottles</code> represents the number of full water bottles that you initially have. In one operation, you can perform one of the following operations:</p>
 
-<ul>
+<ul> 
 	<li>Drink any number of full water bottles turning them into empty bottles.</li>
 	<li>Exchange <code>numExchange</code> empty bottles with one full water bottle. Then, increase <code>numExchange</code> by one.</li>
 </ul>
