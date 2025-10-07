@@ -36,7 +36,7 @@ class Solution {
                 result[i] = -1;
             }
         }
-
+ 
         return result;
     }
 }
