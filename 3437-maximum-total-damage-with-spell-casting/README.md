@@ -3,7 +3,7 @@
 <p>You are given an array <code>power</code>, where each element represents the damage of a spell. Multiple spells can have the same damage value.</p>
 
 <p>It is a known fact that if a magician decides to cast a spell with a damage of <code>power[i]</code>, they <strong>cannot</strong> cast any spell with a damage of <code>power[i] - 2</code>, <code>power[i] - 1</code>, <code>power[i] + 1</code>, or <code>power[i] + 2</code>.</p>
-
+ 
 <p>Each spell can be cast <strong>only once</strong>.</p>
   
 <p>Return the <strong>maximum</strong> possible <em>total damage</em> that a magician can cast.</p>
