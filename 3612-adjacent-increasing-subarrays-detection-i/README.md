@@ -4,7 +4,7 @@
 	<li>Both subarrays <code>nums[a..a + k - 1]</code> and <code>nums[b..b + k - 1]</code> are <strong>strictly increasing</strong>.</li>
 	<li>The subarrays must be <strong>adjacent</strong>, meaning <code>b = a + k</code>.</li>
 </ul> 
-
+ 
 <p>Return <code>true</code> if it is <em>possible</em> to find <strong>two </strong>such subarrays, and <code>false</code> otherwise.</p>
 
 <p>&nbsp;</p>
