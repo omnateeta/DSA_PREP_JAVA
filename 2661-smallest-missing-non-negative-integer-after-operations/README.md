@@ -7,7 +7,7 @@
 </ul>
 
 <p>The MEX (minimum excluded) of an array is the smallest missing <strong>non-negative</strong> integer in it.</p>
-
+ 
 <ul>
 	<li>For example, the MEX of <code>[-1,2,3]</code> is <code>0</code> while the MEX of <code>[1,0,3]</code> is <code>2</code>.</li>
 </ul>
