@@ -2,7 +2,7 @@
 
 <p>In one operation, you can add or subtract <code>value</code> from any element of <code>nums</code>.</p>
 
-<ul>
+<ul> 
 	<li>For example, if <code>nums = [1,2,3]</code> and <code>value = 2</code>, you can choose to subtract <code>value</code> from <code>nums[0]</code> to make <code>nums = [-1,2,3]</code>.</li>
 </ul>
 
