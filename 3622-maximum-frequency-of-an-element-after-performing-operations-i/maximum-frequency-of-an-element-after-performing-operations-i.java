@@ -1,7 +1,7 @@
 class Solution {
     public int maxFrequency(int[] nums, int k, int numOperations) {
         Arrays.sort(nums);  
-        int n = nums.length;
+        int n = nums.length; 
         int res = 1;
 
         // case 1: If we choose target not in nums
