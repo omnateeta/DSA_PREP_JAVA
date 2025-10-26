@@ -49,4 +49,5 @@ class Bank {
  * boolean param_1 = obj.transfer(account1,account2,money);
  * boolean param_2 = obj.deposit(account,money);
  * boolean param_3 = obj.withdraw(account,money);
+ * simple program
  */
