@@ -6,7 +6,7 @@
 <p><strong class="example">Example 1:</strong></p>
 
 <div class="example-block"> 
-<p><strong>Input:</strong> <span class="example-io">n = 5</span></p>
+<p><strong>Input:</strong> <span class="example-io">n = 5</span></p>  
 
 <p><strong>Output:</strong> <span class="example-io">7</span></p>
 
