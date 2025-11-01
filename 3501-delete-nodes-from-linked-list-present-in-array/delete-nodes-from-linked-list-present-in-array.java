@@ -3,7 +3,7 @@ class Solution {
         Set<Integer> numbers = new HashSet<>();
  
         for (int n : nums) {
-            numbers.add(n);
+            numbers.add(n);  
         }
 
         ListNode prev = null;
