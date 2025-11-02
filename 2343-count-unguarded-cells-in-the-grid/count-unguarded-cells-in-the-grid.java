@@ -4,7 +4,7 @@ class Solution {
         int grid[][] = new int[m][n];
         // guard = 1, wall = -1
 
-        for(int[] guard : guards) {  
+        for(int[] guard : guards) {   
             grid[guard[0]][guard[1]] = 1;
         }
         for(int[] wall : walls) {
