@@ -5,11 +5,11 @@ class Solution {
 
         while (cur < cArray.length) {
             if (cArray[cur] == cArray[prev]) {
-                result += Math.min(neededTime[cur], neededTime[prev]);
+                result += Math.min(neededTime[cur], neededTime[prev]); 
 
                 if (neededTime[cur] > neededTime[prev]) {
                     prev = cur;
-                }
+                }   
             } else {
                 prev = cur;
             }
