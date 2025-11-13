@@ -8,7 +8,7 @@ class Solution {
             }else{
                 if(i > 0 && s.charAt(i - 1) == '1') {
                     opr += ones;
-                }
+                } 
             }
         }    
         return opr;    
