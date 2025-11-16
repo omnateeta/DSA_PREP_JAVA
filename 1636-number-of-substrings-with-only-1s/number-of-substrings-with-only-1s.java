@@ -1,3 +1,4 @@
+ 
 class Solution {
     public int numSub(String s) {
         long mod = 1000000007, ones = 0, result = 0;
