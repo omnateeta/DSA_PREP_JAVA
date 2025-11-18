@@ -5,7 +5,7 @@ class Solution {
         while (i < bits.length - 1) {
             if (bits[i] == 1) {
                 i += 2;
-            } else {
+            } else {  
                 i += 1;
             }
         }
