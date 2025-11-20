@@ -7,7 +7,7 @@ class Solution {
             return a[1] - b[1];
         });
 
-        int p1 = -1, p2 = -1, result = 0;
+        int p1 = -1, p2 = -1, result = 0; 
 
         for (int[] interval : intervals) {
             int start = interval[0], end = interval[1];
