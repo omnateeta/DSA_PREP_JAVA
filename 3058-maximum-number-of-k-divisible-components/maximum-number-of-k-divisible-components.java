@@ -37,7 +37,6 @@ class Solution {
         for(int curr : list) {
             sum += helper(curr, values, k);
         }
-
         if(sum%k==0)
             count++;
         return sum%k;
