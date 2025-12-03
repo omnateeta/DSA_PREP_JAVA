@@ -12,7 +12,7 @@
  *         this.right = right;
  *     }
  * }
- */ 
+ */   
 class Solution {
     public boolean isBalanced(TreeNode root) {
         return dfsHeight(root)!=-1;
