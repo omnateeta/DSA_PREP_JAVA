@@ -4,7 +4,7 @@ class Solution {
         int left = 0, right = n - 1;
 
         while (left < n && directions.charAt(left) == 'L') {
-            left += 1;
+            left += 1;  
         }
 
         while (right >= 0 && directions.charAt(right) == 'R') {
