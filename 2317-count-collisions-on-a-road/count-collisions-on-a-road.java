@@ -7,7 +7,7 @@ class Solution {
             left += 1;  
         }
 
-        while (right >= 0 && directions.charAt(right) == 'R') {
+        while (right >= 0 && directions.charAt(right) == 'R') { 
             right -= 1;
         }
 
