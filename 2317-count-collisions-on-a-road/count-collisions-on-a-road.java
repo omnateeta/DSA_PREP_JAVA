@@ -10,7 +10,7 @@ class Solution {
         while (right >= 0 && directions.charAt(right) == 'R') { 
             right -= 1;
         }
-
+ 
         int collisions = 0;
         for (int i = left; i <= right; i++) {
             if (directions.charAt(i) != 'S') {
