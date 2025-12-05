@@ -20,7 +20,7 @@ class Solution {
                 hPlanes.add(0L);
             }
         }
-
+  
         long prefix = 0;
         long result = 0;
 
