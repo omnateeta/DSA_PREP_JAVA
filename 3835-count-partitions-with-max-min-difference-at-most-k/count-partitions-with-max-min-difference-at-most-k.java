@@ -5,7 +5,7 @@ class Solution {
         int[] dp = new int[n + 1];
         int[] pre = new int[n + 1];
         dp[0] = 1;
-        pre[0] = 1;
+        pre[0] = 1; 
         Deque<Integer> maxD = new ArrayDeque<>();
         Deque<Integer> minD = new ArrayDeque<>();
         int left = 0;
