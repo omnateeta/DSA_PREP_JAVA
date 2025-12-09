@@ -23,7 +23,6 @@ class Solution {
 
             left.put(value, left.getOrDefault(value, 0) + 1);
         }
-
         return (int) result;
     }
-}
+} 
