@@ -6,7 +6,7 @@ class Solution {
         Map<String, String> caseInsensitive = new HashMap<>();
         Map<String, String> vowelInsensitive = new HashMap<>();
 
-        // Step 1: Prepare lookup maps
+        // Step 1: Prepare lookup maps  
         for (String word : wordlist) {
             exact.add(word);
             String lower = word.toLowerCase();
