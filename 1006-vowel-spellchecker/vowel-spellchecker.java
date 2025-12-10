@@ -14,7 +14,7 @@ class Solution {
             caseInsensitive.putIfAbsent(lower, word);
             vowelInsensitive.putIfAbsent(convertVowel(lower), word);
         }
-
+ 
         // Step 2: Process queries
         String[] result = new String[queries.length];
         for (int i = 0; i < queries.length; i++) {
