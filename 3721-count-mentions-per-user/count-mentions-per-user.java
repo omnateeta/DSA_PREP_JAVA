@@ -79,8 +79,7 @@ class Solution {
 
     }
 }
-/*
-
+/* Commented 
 Input: numberOfUsers = 2, 
 events = 
 [["MESSAGE","10","id1 id0"],
