@@ -1,7 +1,7 @@
 
 /*********************Recursive Solution************************ */
 // class Solution { 
-
+ 
 //     public int numberOfWays(String s) {
 //         int seats = 0;
 //         for (char c : s.toCharArray()) {
