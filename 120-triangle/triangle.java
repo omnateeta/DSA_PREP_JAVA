@@ -3,7 +3,7 @@ class Solution {
         Integer[][] dp = new Integer[201][201];
         return helper(triangle, 0, 0, dp);
     }
-
+ 
     private int helper(List<List<Integer>> triangle, int rowIndex, int cRowIndex, Integer[][] dp) {
         if (rowIndex == triangle.size()) {
             return 0;
