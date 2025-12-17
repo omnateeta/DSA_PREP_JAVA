@@ -2,7 +2,6 @@ class Solution {
     public long getDescentPeriods(int[] prices) {
         int n = prices.length;
         long ans = 0;
-
         int i=0;
 
         while( i < n) {
