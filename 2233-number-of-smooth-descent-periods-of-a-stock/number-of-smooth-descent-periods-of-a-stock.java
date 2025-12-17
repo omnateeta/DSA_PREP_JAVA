@@ -11,7 +11,6 @@ class Solution {
                 i++;
                 len++;
             }
-
             ans += (long)len * (len+1)/2;
             i++;
         }
