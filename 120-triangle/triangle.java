@@ -8,7 +8,7 @@ class Solution {
         if (rowIndex == triangle.size()) {
             return 0;
         }
-
+ 
         if (dp[rowIndex][cRowIndex] != null) {
             return dp[rowIndex][cRowIndex];
         }
