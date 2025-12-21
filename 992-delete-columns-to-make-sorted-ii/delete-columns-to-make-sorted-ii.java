@@ -32,8 +32,8 @@ class Solution {
         return delcount;
 
     }
-}
-/*
+} 
+/* input values to test
 x c
 y b
 z a
