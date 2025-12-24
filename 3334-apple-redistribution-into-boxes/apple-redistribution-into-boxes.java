@@ -1,3 +1,4 @@
+//3074. Apple Redistribution into Boxes
 class Solution {
     public int minimumBoxes(int[] apple, int[] capacity) {
         // m, n
@@ -15,7 +16,5 @@ class Solution {
         }
 
         return ans;
-
-
     }
 }
