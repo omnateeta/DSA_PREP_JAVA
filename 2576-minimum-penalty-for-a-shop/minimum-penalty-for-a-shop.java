@@ -1,3 +1,4 @@
+//2483. Minimum Penalty for a Shop
 class Solution {
     public int bestClosingTime(String customers) {
         int curPenalty = 0;
@@ -22,8 +23,8 @@ class Solution {
             } else {
                 curPenalty++;
             }
-
-            // Update earliestHour if a smaller penatly is encountered.
+  
+            // Update earliestHour if a smaller penatly is encountered. 
             if (curPenalty < minPenalty) {
                 earliestHour = i + 1;
                 minPenalty = curPenalty;
