@@ -1,3 +1,4 @@
+//756. Pyramid Transition Matrix
 class Solution {
     Map<String, List<Character>> hmap;
     public boolean pyramidTransition(String bottom, List<String> allowed) {
