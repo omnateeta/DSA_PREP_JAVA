@@ -1,13 +1,14 @@
+//1970. Last Day Where You Can Still Cross
 class Solution {
 
     private int[] parent, rank;
     private int rows, cols;
-    private final int[][] DIRS = {{1,0},{-1,0},{0,1},{0,-1}};
+    private final int[][] DIRS = {{1,0},{-1,0},{0,1},{0,-1}}; 
 
     public int latestDayToCross(int row, int col, int[][] cells) {
         rows = row;
         cols = col;
-
+ 
         int total = row * col;
         int TOP = total;
         int BOTTOM = total + 1;
@@ -20,7 +21,7 @@ class Solution {
 
         boolean[][] land = new boolean[row][col];
 
-        // Process in reverse order
+        // Process in reverse order .
         for (int day = cells.length - 1; day >= 0; day--) {
             int r = cells[day][0] - 1;
             int c = cells[day][1] - 1;
