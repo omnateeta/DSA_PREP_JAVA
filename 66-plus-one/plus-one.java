@@ -1,3 +1,4 @@
+//66. Plus One
 class Solution {
     public int[] plusOne(int[] digits) {
         int n = digits.length;
@@ -5,7 +6,8 @@ class Solution {
         for(int i=n-1; i>=0; i--) {
             int curr = (digits[i] + carry);
             // 8,9,9 = [9,9,9]
-            // [9,9,9] 
+            // [9,9,9]
+
             if(curr < 10) {
                 digits[i] = curr;
                 return digits;
@@ -15,5 +17,5 @@ class Solution {
         int ans[] = new int[n+1];
         ans[0] = 1;
         return ans;
-    }
+    } 
 }
