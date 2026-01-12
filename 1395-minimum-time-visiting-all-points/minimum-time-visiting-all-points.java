@@ -1,3 +1,4 @@
+//1266. Minimum Time Visiting All Points
 class Solution {
     public int minTimeToVisitAllPoints(int[][] points) {
         int ans = 0;
