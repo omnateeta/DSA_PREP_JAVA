@@ -1,3 +1,4 @@
+//2975. Maximum Square Area by Removing Fences From a Field
 class Solution {
     static final int MOD = 1_000_000_007;
 
