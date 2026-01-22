@@ -1,3 +1,4 @@
+//3507. Minimum Pair Removal to Sort Array I
 class Solution {
     public int minimumPairRemoval(int[] nums) {
         int count = 0; // number of operations
