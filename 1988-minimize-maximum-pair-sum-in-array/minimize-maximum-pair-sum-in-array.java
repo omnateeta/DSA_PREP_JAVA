@@ -1,3 +1,4 @@
+//1877. Minimize Maximum Pair Sum in Array
 class Solution {
     public int minPairSum(int[] nums) {
         Arrays.sort(nums); // Nlogn, O(1)
