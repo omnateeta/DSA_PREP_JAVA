@@ -1,3 +1,4 @@
+//3637. Trionic Array I
 class Solution {
     public boolean isTrionic(int[] nums) {
         int i=1;
