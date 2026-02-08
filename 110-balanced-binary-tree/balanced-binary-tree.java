@@ -12,19 +12,22 @@
  *         this.right = right;
  *     }
  * }
- */   
+ */
 class Solution {
+    boolean balance;
     public boolean isBalanced(TreeNode root) {
-        return dfsHeight(root)!=-1;
-    }   
-    int dfsHeight(TreeNode root) {
-        if(root==null) return 0;
-        int leftHeight = dfsHeight(root.left);
-        if(leftHeight == -1) return -1;
-        int rightHeight = dfsHeight(root.right);
-        if(rightHeight == -1) return -1;;
+       balance = true;
+       helper(root);
+       return balance;
+    }
 
-        if(Math.abs(leftHeight - rightHeight)>1) return -1;
-        return Math.max(leftHeight, rightHeight)+1;
+    int helper(TreeNode root) {
+        if(root==null)
+            return 0;
+        int left = helper(root.left);
+        int right = helper(root.right);
+        if(Math.abs(right-left) > 1)
+            balance = false; 
+        return Math.max(left, right) + 1;
     }
 }
