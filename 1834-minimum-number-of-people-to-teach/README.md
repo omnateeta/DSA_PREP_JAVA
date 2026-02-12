@@ -2,7 +2,7 @@
 
 <p>You are given an integer <code>n</code>, an array <code>languages</code>, and an array <code>friendships</code> where:</p>
 
-<ul>
+<ul>  
 	<li>There are <code>n</code> languages numbered <code>1</code> through <code>n</code>,</li>
 	<li><code>languages[i]</code> is the set of languages the <code>i<sup>​​​​​​th</sup></code>​​​​ user knows, and</li>
 	<li><code>friendships[i] = [u<sub>​​​​​​i</sub>​​​, v<sub>​​​​​​i</sub>]</code> denotes a friendship between the users <code>u<sup>​​​​​</sup><sub>​​​​​​i</sub></code>​​​​​ and <code>v<sub>i</sub></code>.</li>
