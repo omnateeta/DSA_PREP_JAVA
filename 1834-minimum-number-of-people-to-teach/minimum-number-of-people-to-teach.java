@@ -3,7 +3,7 @@ class Solution {
         Set <Integer> users = new HashSet<>();
         for(int[] f : friendships){
             int u1 = f[0] - 1;
-            int[] l1 = languages[u1];
+            int[] l1 = languages[u1];  
             int u2 = f[1] - 1;
             int[] l2 = languages[u2];
 
