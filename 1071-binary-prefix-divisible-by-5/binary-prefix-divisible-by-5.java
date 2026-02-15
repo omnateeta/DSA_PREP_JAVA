@@ -6,7 +6,6 @@ class Solution {
             decimal = (2 * decimal + n) % 5;
             res.add(decimal % 5 == 0);
         } 
-
         return res;
     }
 }
