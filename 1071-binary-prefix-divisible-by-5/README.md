@@ -1,7 +1,7 @@
 <h2><a href="https://leetcode.com/problems/binary-prefix-divisible-by-5">Binary Prefix Divisible By 5</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given a binary array <code>nums</code> (<strong>0-indexed</strong>).</p>
 
 <p>We define <code>x<sub>i</sub></code> as the number whose binary representation is the subarray <code>nums[0..i]</code> (from most-significant-bit to least-significant-bit).</p>
-
+  
 <ul>
 	<li>For example, if <code>nums = [1,0,1]</code>, then <code>x<sub>0</sub> = 1</code>, <code>x<sub>1</sub> = 2</code>, and <code>x<sub>2</sub> = 5</code>.</li>
 </ul>
