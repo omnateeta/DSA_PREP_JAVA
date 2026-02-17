@@ -1,7 +1,6 @@
 class Solution {
     public List<String> readBinaryWatch(int LEDs) {
         List<String> ans = new ArrayList<>();
-        
         //  try all possible hour and minute combinations
         for(int h = 0; h < 12; h++) {
             for(int m = 0; m < 60; m++) {
@@ -21,12 +20,10 @@ class Solution {
                     else {
                         sb.append(m);
                     }
-                    
                     ans.add(sb.toString());
                 }
             }
         }
-        
         return ans;
     }
 }
