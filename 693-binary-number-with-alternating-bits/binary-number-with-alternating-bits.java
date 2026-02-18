@@ -1,3 +1,4 @@
+//693. Binary Number with Alternating Bits
 class Solution {
     public boolean hasAlternatingBits(int n) {
         int hbit = Integer.highestOneBit(n);
