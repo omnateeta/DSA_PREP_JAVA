@@ -1,3 +1,4 @@
+//762. Prime Number of Set Bits in Binary Representation
 class Solution {
     public int countPrimeSetBits(int left, int right) {
         // 32.. 1 32 -- > 2,3,5,7,11,13..
