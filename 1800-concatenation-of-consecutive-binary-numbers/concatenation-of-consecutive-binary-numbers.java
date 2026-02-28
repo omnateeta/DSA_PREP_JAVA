@@ -1,3 +1,4 @@
+//1680. Concatenation of Consecutive Binary Numbers
 class Solution {
     int mod = 1_000_000_007;
     public int concatenatedBinary(int n) {
