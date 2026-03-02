@@ -1,3 +1,4 @@
+//1536. Minimum Swaps to Arrange a Binary Grid
 class Solution {
     public int minSwaps(int[][] grid) {
         int n = grid.length;
