@@ -1,3 +1,4 @@
+//1545. Find Kth Bit in Nth Binary String
 class Solution {
     public char findKthBit(int n, int k) {
         // O(n)
