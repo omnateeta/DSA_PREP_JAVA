@@ -1,3 +1,4 @@
+//1758. Minimum Changes To Make Alternating Binary String
 class Solution {
     public int minOperations(String s) {
         int zerostart = 0, onestart = 0;
