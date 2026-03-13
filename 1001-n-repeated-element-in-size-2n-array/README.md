@@ -6,7 +6,7 @@
 	<li>Exactly one element of <code>nums</code> is repeated <code>n</code> times.</li>
 </ul>
   
-<p>Return <em>the element that is repeated </em><code>n</code><em> times</em>.</p>
+<p>Return <em>the element that is repeated </em><code>n</code><em> times</em>.</p>  
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
