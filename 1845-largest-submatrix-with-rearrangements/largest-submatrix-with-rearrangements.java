@@ -1,7 +1,8 @@
+//1727. Largest Submatrix With Rearrangements
 class Solution {
     public int largestSubmatrix(int[][] grid) {
         int m = grid.length, n = grid[0].length;
-        int ans = 0;
+        int ans = 0; 
         // O(m * (n + nlogn + n))
         for(int i=0; i<m; i++) {
             for(int j=0; j<n; j++) {
