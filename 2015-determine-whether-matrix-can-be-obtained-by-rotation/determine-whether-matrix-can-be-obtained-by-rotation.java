@@ -1,9 +1,9 @@
 //1886. Determine Whether Matrix Can Be Obtained By Rotation
 class Solution {
     public boolean findRotation(int[][] mat, int[][] target) {
-        boolean r1 = true, r2 = true, r3 = true, r4 = true;
-        int n = mat.length;
-        // O(n^2)
+        boolean r1 = true, r2 = true, r3 = true, r4 = true;  
+        int n = mat.length; 
+        // O(n^2)   
         for(int i=0; i<n; i++) {
             for(int j=0; j<n; j++) {
                 // 0 degrees or 360 degree rotation
