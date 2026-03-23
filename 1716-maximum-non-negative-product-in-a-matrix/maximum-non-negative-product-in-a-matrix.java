@@ -1,9 +1,9 @@
-class Solution {
+class Solution { 
     int mod = 1_000_000_007;
     public int maxProductPath(int[][] grid) {
         int m = grid.length, n = grid[0].length;
         // DP max dp min 
-        // O(m*n)
+        // O(m*n) 
         long dpMax[][] = new long[m][n];
         long dpMin[][] = new long[m][n];
 
@@ -15,7 +15,6 @@ class Solution {
             dpMax[0][j] = dpMax[0][j-1]*grid[0][j];
             dpMin[0][j] = dpMin[0][j-1]*grid[0][j];
         }
-
         // First col
         for(int i=1; i<m; i++) {
             dpMax[i][0] = dpMax[i-1][0]*grid[i][0];
@@ -34,10 +33,8 @@ class Solution {
                             Math.max(leftMin, leftMax));
                 dpMin[i][j] = Math.min(Math.min(topMax, topMin),
                             Math.min(leftMin, leftMax));
-
             }
         }
-
         long ans = dpMax[m-1][n-1];
 
         return ans<0 ? -1 : (int)(ans%mod);
