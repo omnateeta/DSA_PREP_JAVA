@@ -15,7 +15,6 @@ class Solution {
                 left = (left*grid[i][j])%mod;
             }
         }
-
         // bottom to top traversal
 
         for(int i=n-1; i>=0; i--) {
