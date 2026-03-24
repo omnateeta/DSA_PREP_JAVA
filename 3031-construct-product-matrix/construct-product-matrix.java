@@ -1,3 +1,4 @@
+//2906. Construct Product Matrix
 class Solution {
     public int[][] constructProductMatrix(int[][] grid) {
         int mod = 12345;
