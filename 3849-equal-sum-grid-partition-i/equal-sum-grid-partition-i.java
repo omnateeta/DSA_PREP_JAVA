@@ -1,3 +1,4 @@
+//3546. Equal Sum Grid Partition I
 class Solution {
     long rows[], cols[];
     public boolean canPartitionGrid(int[][] grid) {
@@ -13,8 +14,7 @@ class Solution {
             if(currsum==sum-currsum)
                 return true;
             currsum += rows[i];
-        }
-
+        } 
         // vertical check
         currsum = cols[0];
         for(int j=1; j<n; j++) {
@@ -22,9 +22,7 @@ class Solution {
                 return true;
             currsum += cols[j];
         }
-
         return false;
-
     }
 
     long getSum(int[][] grid) {
@@ -36,7 +34,7 @@ class Solution {
                 rowsum += grid[i][j];
             }
             rows[i] = rowsum;
-        }
+        } 
         // colsum
         for(int j=0; j<grid[0].length; j++) {
             long colsum = 0;
@@ -45,7 +43,6 @@ class Solution {
             }
             cols[j] = colsum;
         }
-
         return sum;
     }
 }
