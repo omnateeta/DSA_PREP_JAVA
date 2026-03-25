@@ -4,10 +4,10 @@ class Solution {
     public boolean canPartitionGrid(int[][] grid) {
         int m = grid.length, n = grid[0].length;
         rows = new long[m];
-        cols = new long[n];
+        cols = new long[n]; 
         long sum = getSum(grid);
-        // O(m*n)
-        // O(m+n)
+        // O(m*n) 
+        // O(m+n) 
         // horizontal check
         long currsum = rows[0];
         for(int i=1; i<m; i++) {
