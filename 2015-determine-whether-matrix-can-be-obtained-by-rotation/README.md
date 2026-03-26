@@ -1,7 +1,7 @@
 <h2><a href="https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation">Determine Whether Matrix Can Be Obtained By Rotation</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given two <code>n x n</code> binary matrices <code>mat</code> and <code>target</code>, return <code>true</code><em> if it is possible to make </em><code>mat</code><em> equal to </em><code>target</code><em> by <strong>rotating</strong> </em><code>mat</code><em> in <strong>90-degree increments</strong>, or </em><code>false</code><em> otherwise.</em></p>
 
 <p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p> <br>
 <img alt="" src="https://assets.leetcode.com/uploads/2021/05/20/grid3.png" style="width: 301px; height: 121px;" />
 <pre>
 <strong>Input:</strong> mat = [[0,1],[1,0]], target = [[1,0],[0,1]]
