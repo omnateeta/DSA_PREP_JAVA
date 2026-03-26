@@ -1,9 +1,9 @@
-//3548. Equal Sum Grid Partition II
+//3548. Equal Sum Grid Partition II 
 class Solution {
     int m,n;
     long totalsum;
     int [][] grid;
-    HashMap<Long, List<int[]>> hmap; // O(m*n)
+    HashMap<Long, List<int[]>> hmap; // O(m*n)  
     public boolean canPartitionGrid(int[][] grid) {
         this.grid = grid;
         m = grid.length;
