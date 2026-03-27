@@ -1,3 +1,4 @@
+//2946. Matrix Similarity After Cyclic Shifts
 class Solution {
     public boolean areSimilar(int[][] mat, int k) {
         int m = mat.length, n = mat[0].length;
