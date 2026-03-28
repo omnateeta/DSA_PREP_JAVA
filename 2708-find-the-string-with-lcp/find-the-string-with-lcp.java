@@ -6,7 +6,7 @@ class Solution {
 
         char ch = 'a';
         for(int i=0; i<n; i++) {
-            // already assigned by an earlier position that shared a prefix with i
+            // already assigned by an earlier position that shared a prefix with i. and check the following
             if(s[i] > 0)
                 continue;
             if(ch > 'z')
