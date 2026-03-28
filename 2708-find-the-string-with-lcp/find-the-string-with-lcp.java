@@ -1,3 +1,4 @@
+//2573. Find the String with LCP
 class Solution {
     public String findTheString(int[][] lcp) {
         int n = lcp.length;
