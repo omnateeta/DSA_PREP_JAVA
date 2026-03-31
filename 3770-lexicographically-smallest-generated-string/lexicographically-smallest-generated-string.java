@@ -1,3 +1,4 @@
+//3474. Lexicographically Smallest Generated String
 class Solution {
     public String generateString(String str1, String str2) {
         int n = str1.length(), m = str2.length();
@@ -5,8 +6,8 @@ class Solution {
 
         // Step 1: Fill all the 'T' related values
         for(int i=0; i<n; i++) {
-            if(str1.charAt(i)=='T') {
-                for(int j=0; j<m; j++) {
+            if(str1.charAt(i)=='T') { 
+                for(int j=0; j<m; j++) { 
                     // word[i+j] 
                     if(word[i+j]!='\u0000' && word[i+j]!=str2.charAt(j)) {
                         return "";
