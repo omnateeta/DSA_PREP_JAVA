@@ -3,8 +3,8 @@
 <p>Return a list of pairs in ascending order(with respect to pairs), each pair <code>[a, b]</code> follows</p>
 
 <ul>
-	<li><code>a, b</code> are from <code>arr</code></li>
-	<li><code>a &lt; b</code></li>
+	<li><code>a, b</code> are from <code>arr</code></li> 
+	<li><code>a &lt; b</code></li>  
 	<li><code>b - a</code> equals to the minimum absolute difference of any two elements in <code>arr</code></li>
 </ul> 
   
