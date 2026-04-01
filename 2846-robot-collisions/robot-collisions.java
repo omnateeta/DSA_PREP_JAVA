@@ -4,7 +4,7 @@ class Solution {
 
         List<Integer> indices = new ArrayList<>();
         for (int i = 0; i < n; i++)
-            indices.add(i);
+            indices.add(i); 
 
         // Sort by position so we process collisions in spatial order
         Collections.sort(indices, (a, b) -> positions[a] - positions[b]);
@@ -14,7 +14,7 @@ class Solution {
 
         for (int i : indices) {
             if (directions.charAt(i) == 'R') {
-                rightMovers.push(i);
+                rightMovers.push(i); 
                 continue;
             }
 
@@ -25,7 +25,7 @@ class Solution {
                 if (health[topIndex] > health[i]) {
                     // Right-mover survives, left-mover is destroyed
                     health[topIndex]--;
-                    health[i] = 0;
+                    health[i] = 0; 
                 } else if (health[topIndex] < health[i]) {
                     // Left-mover survives, right-mover is destroyed
                     health[rightMovers.pop()]= 0;
@@ -33,7 +33,7 @@ class Solution {
                 } else {
                     // Both destroyed
                     health[rightMovers.pop()] = 0;
-                    health[i] = 0;
+                    health[i] = 0; 
                 }
             }
         }
@@ -42,7 +42,7 @@ class Solution {
         List<Integer> survivors = new ArrayList<>();
         for (int remainingHealth : health) {
             if (remainingHealth > 0)
-                survivors.add(remainingHealth);
+                survivors.add(remainingHealth); 
         }
 
         return survivors;
