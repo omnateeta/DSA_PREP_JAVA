@@ -6,8 +6,8 @@
 	<li><code>a, b</code> are from <code>arr</code></li>
 	<li><code>a &lt; b</code></li>
 	<li><code>b - a</code> equals to the minimum absolute difference of any two elements in <code>arr</code></li>
-</ul>
-
+</ul> 
+  
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
