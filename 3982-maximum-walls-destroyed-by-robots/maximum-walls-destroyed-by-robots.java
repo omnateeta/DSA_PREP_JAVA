@@ -4,13 +4,13 @@ class Solution {
         // -1 .... +inf
         int r[][] = new int[n+2][2];
         for(int i=0; i<n; i++) {
-            r[i][0] = robots[i];
-            r[i][1] = distance[i];
+            r[i][0] = robots[i];  
+            r[i][1] = distance[i]; 
         }
-        r[n][0] = -1;
-        r[n][1] = 0;
-        r[n+1][0] = Integer.MAX_VALUE;
-        r[n+1][1] = 0;
+        r[n][0] = -1; 
+        r[n][1] = 0; 
+        r[n+1][0] = Integer.MAX_VALUE; 
+        r[n+1][1] = 0; 
         // O(nlogn + mlogn)
         // O(n)
         Arrays.sort(r, (a,b)->Integer.compare(a[0],b[0]));
