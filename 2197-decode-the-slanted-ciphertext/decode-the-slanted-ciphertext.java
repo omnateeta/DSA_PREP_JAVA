@@ -20,12 +20,12 @@ class Solution {
                 i++;
                 j++;
             }
-        }
-        // Step 3: Remove trailing spaces
+        } 
+        // Step 3: Remove trailing spaces 
         int end = sb.length() - 1;
         while (end >= 0 && sb.charAt(end) == ' ') {
-            end--;
-        }
+            end--; 
+        } 
         return sb.substring(0, end + 1);
-    }
-}
+    } 
+} 
