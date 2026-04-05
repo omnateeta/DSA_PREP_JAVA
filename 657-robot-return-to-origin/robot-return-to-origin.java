@@ -1,11 +1,11 @@
-class Solution {
-    public boolean judgeCircle(String moves) {
-        int ydir=0, xdir=0;
-        // O(n)
+class Solution { 
+    public boolean judgeCircle(String moves) { 
+        int ydir=0, xdir=0;  
+        // O(n) 
         for(int i=0; i<moves.length(); i++) {
-            char ch = moves.charAt(i);
+            char ch = moves.charAt(i); 
             if(ch=='U')
-                ydir++;
+                ydir++; 
             else if(ch=='D')
                 ydir--;
             else if(ch=='L')
@@ -13,6 +13,5 @@ class Solution {
             else xdir++;
         }
         return xdir==0 && ydir==0;
-
     }
 }
