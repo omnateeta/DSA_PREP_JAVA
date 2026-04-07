@@ -5,8 +5,8 @@
 
 <pre>
 <strong>Input:</strong> nums = [&quot;01&quot;,&quot;10&quot;]
-<strong>Output:</strong> &quot;11&quot;
-<strong>Explanation:</strong> &quot;11&quot; does not appear in nums. &quot;00&quot; would also be correct.
+<strong>Output:</strong> &quot;11&quot; 
+<strong>Explanation:</strong> &quot;11&quot; does not appear in nums. &quot;00&quot; would also be correct. 
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
