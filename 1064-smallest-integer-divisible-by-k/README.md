@@ -3,9 +3,9 @@
 <p>Return <em>the <strong>length</strong> of </em><code>n</code>. If there is no such <code>n</code>, return -1.</p>
 
 <p><strong>Note:</strong> <code>n</code> may not fit in a 64-bit signed integer.</p>
-
+  
 <p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p> 
 
 <pre>
 <strong>Input:</strong> k = 1
