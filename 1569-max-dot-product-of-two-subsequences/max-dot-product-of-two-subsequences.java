@@ -1,8 +1,9 @@
+//check 
 class Solution {
     int nums1[];
     int nums2[];
     Integer dp[][];
-    public int maxDotProduct(int[] nums1, int[] nums2) {
+    public int maxDotProduct(int[] nums1, int[] nums2) { 
         this.nums1 = nums1;
         this.nums2 = nums2;
         dp = new Integer[nums1.length][nums2.length];
