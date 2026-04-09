@@ -10,7 +10,7 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="http://127.0.0.1:49174/shape1.jpg" /></p>
+<p><img alt="" src="http://127.0.0.1:49174/shape1.jpg" /></p> 
 
 <div class="example-block">
 <p><strong>Input:</strong> <span class="example-io">values = [1,2,3]</span></p>
