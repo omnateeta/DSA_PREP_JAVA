@@ -1,3 +1,4 @@
+//3741. Minimum Distance Between Three Equal Elements II
 class Solution {
     public int minimumDistance(int[] nums) {
         HashMap<Integer, List<Integer>> hmap = new HashMap<>();
@@ -17,8 +18,7 @@ class Solution {
                 int z = temp.get(i+2)- temp.get(i+1);
                 dist = Math.min(dist, x+y+z);
             }
-        }
+        } 
         return dist==Integer.MAX_VALUE ? -1 : dist;
-        
     }
 }
