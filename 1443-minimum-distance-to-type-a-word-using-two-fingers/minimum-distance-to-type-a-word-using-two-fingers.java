@@ -26,9 +26,9 @@ class Solution {
     private int getDist(int a, int b) {
         if (a == 26) return 0; // finger not placed yet
 
-        int x1 = a / 6, y1 = a % 6;
-        int x2 = b / 6, y2 = b % 6;
-
-        return Math.abs(x1 - x2) + Math.abs(y1 - y2);
+        int x1 = a / 6, y1 = a % 6; 
+        int x2 = b / 6, y2 = b % 6; 
+ 
+        return Math.abs(x1 - x2) + Math.abs(y1 - y2); 
     }
-}
+} 
