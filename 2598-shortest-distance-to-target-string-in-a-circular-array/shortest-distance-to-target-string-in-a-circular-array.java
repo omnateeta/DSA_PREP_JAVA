@@ -11,21 +11,11 @@ class Solution {
                 ans = Math.min(ans, Math.min(dist1, dist2));
             }
         }
-
         if(ans > n)
             return -1;
         return ans;
-
     }
 }
-
-
-
-
-
-
-
-
 /*
 n = 7
 start = 2, targetIndex = 5
