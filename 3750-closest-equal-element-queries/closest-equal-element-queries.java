@@ -36,14 +36,12 @@ class Solution {
                 precomputed[curr] = Math.min(Math.min(Math.min(dist1, dist2), n-dist1), n-dist2);
 
             }
-            
         }
 
         for(int q : queries) {
             // O(Q)
             ans.add(precomputed[q]);
         }
-
         return ans;
     }
 }
