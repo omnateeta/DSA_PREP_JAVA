@@ -37,7 +37,7 @@ class Solution {
 
             }
         }
-
+  
         for(int q : queries) {
             // O(Q)
             ans.add(precomputed[q]);
