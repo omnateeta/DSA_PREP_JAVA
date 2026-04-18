@@ -1,9 +1,9 @@
-//3783. Mirror Distance of an Integer..
+//3783. Mirror Distance of an Integer.
 class Solution {
     public int mirrorDistance(int n) {
         int original = n;
         int rev = 0;
-        // Reverse the number
+        // Reverse the number .
         while (n > 0) {
             int digit = n % 10;
             rev = rev * 10 + digit;
@@ -12,3 +12,4 @@ class Solution {
         return Math.abs(original - rev);
     }
 }
+//
