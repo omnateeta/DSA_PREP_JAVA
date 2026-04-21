@@ -1,3 +1,4 @@
+//1722. Minimize Hamming Distance After Swap Operations
 class Solution {
     int parent[];
 
@@ -51,8 +52,6 @@ class Solution {
                     temp.remove(target[i]);
             } else ans++;
         }
-
         return ans;
-
     }
 }
