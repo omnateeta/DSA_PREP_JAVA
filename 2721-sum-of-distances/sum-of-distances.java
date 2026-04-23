@@ -38,14 +38,10 @@ class Solution {
                 currsum += (rightsum - (n-i-1)*(long)list.get(i));
 
                 leftsum += list.get(i);
-
                 ans[list.get(i)] = currsum;
 
             }
-
-
         }
-
         return ans;
     }
 }
