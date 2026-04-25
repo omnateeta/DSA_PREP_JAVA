@@ -1,9 +1,9 @@
 <h2><a href="https://leetcode.com/problems/path-sum">Path Sum</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given the <code>root</code> of a binary tree and an integer <code>targetSum</code>, return <code>true</code> if the tree has a <strong>root-to-leaf</strong> path such that adding up all the values along the path equals <code>targetSum</code>.</p>
 
-<p>A <strong>leaf</strong> is a node with no children.</p>
+<p>A <strong>leaf</strong> is a node with no children.</p>  
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+<p>&nbsp;</p>  
+<p><strong class="example">Example 1:</strong></p>  
 <img alt="" src="https://assets.leetcode.com/uploads/2021/01/18/pathsum1.jpg" style="width: 500px; height: 356px;" />
 <pre>
 <strong>Input:</strong> root = [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum = 22
