@@ -35,9 +35,7 @@ class Solution {
                 continue;
             if(dfs(r,c,x,y, ch, grid)) 
                 return true;
-        }
-
+        } 
         return false;
-        
     }
 } 
