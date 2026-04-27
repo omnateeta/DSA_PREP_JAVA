@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
     
     int m,n;
     boolean visited[][];
@@ -14,7 +14,7 @@ class Solution {
         m = grid.length; n = grid[0].length;
         visited = new boolean[m][n];
         return dfs(0,0,grid);
-    }
+    } 
 
     boolean dfs(int r, int c, int[][] grid) {
         if(r==m-1 && c==n-1)
@@ -33,8 +33,7 @@ class Solution {
 
         return false;
 
-    }
-
+    } 
     boolean canMove(int curr, int next, int dir) {
         if(dir==0) { // right
             return canRight[curr] && canLeft[next];
@@ -45,7 +44,6 @@ class Solution {
         } else if(dir==3) { // down
             return canDown[curr] && canUp[next];
         }
-
         return false;
     }
 }
