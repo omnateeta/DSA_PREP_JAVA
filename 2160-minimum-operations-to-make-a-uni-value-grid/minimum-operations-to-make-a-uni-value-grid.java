@@ -1,3 +1,4 @@
+//2033. Minimum Operations to Make a Uni-Value Grid
 class Solution {
     public int minOperations(int[][] grid, int x) {
         int m = grid.length, n = grid[0].length;
@@ -20,7 +21,6 @@ class Solution {
         for(int i=0; i<arr.length; i++) {
             ans += (Math.abs(arr[mid]-arr[i]))/x;
         }
-        
         return ans;
     }
 }
