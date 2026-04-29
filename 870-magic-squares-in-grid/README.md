@@ -5,7 +5,7 @@
 <p>Note: while a magic square can only contain numbers from 1 to 9, <code>grid</code> may contain numbers up to 15.</p>
 
 <p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+<p><strong class="example">Example 1: one :-</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/11/magic_main.jpg" style="width: 322px; height: 242px;" />
 <pre>
 <strong>Input:</strong> grid = [[4,3,8,4],[9,5,1,9],[2,7,6,2]]
