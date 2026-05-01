@@ -11,8 +11,8 @@
 <p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>Input:</strong> head = [1], n = 1
-<strong>Output:</strong> []
+<strong>Input:</strong> head = [1], n = 1 
+<strong>Output:-</strong> []
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
