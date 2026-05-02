@@ -10,7 +10,7 @@
 <p><strong class="example">Example 1:</strong></p>
 
 <div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [2,3,5,7]</span></p>
+<p><strong>Input:-</strong> <span class="example-io">nums = [2,3,5,7]</span></p>
 
 <p><strong>Output:</strong> <span class="example-io">[-1,1,4,3]</span></p>
 
