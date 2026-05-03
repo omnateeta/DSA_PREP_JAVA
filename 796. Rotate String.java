@@ -10,6 +10,6 @@ class Solution {
         if(temp.indexOf(goal)!=-1)
             return true;
         return false;
-
     }
 }
+//end of the code
