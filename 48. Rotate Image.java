@@ -21,7 +21,7 @@ class Solution {
                 matrix[i][k] = temp;
                 j++;
                 k--;
-            }
-        }
-    }
-}
+            } 
+        } 
+    } 
+} 
