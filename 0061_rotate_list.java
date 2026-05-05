@@ -3,7 +3,7 @@ class Solution {
         // Edge case: empty list or single node
         if (head == null || head.next == null) return head;
 
-        // Step 1: Find list length and tail node and also
+        // Step 1: Find list length and tail node..
         int length = 0;
         ListNode tail = null;
         ListNode curr = head;
@@ -29,8 +29,8 @@ class Solution {
         // Step 4: Rewire pointers
         ListNode newHead = newTail.next;
         newTail.next = null;  // Break the list
-        tail.next = head;     // Connect old tail to old head (form the rotation)
+        tail.next = head;     // Connect old tail to old head (form the rotation) 
 
         return newHead;
     }
-}
+} //end of the code
