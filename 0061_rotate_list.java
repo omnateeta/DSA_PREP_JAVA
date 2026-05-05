@@ -3,7 +3,7 @@ class Solution {
         // Edge case: empty list or single node
         if (head == null || head.next == null) return head;
 
-        // Step 1: Find list length and tail node
+        // Step 1: Find list length and tail node and also
         int length = 0;
         ListNode tail = null;
         ListNode curr = head;
