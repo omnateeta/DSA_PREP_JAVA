@@ -33,4 +33,5 @@ class Solution {
 
         return newHead;
     }
-} //end of the code
+} //end of the code of 0061_rotate_list.java
+
