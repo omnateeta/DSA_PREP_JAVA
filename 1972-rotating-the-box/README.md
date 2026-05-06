@@ -13,7 +13,7 @@
 <p>Return <em>an </em><code>n x m</code><em> matrix representing the box after the rotation described above</em>.</p>
 
 <p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+<p><strong class="example">Example 1:--</strong></p>
 
 <p><img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/rotatingtheboxleetcodewithstones.png" style="width: 300px; height: 150px;" /></p>
 
