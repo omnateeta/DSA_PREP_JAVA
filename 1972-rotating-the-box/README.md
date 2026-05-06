@@ -18,7 +18,7 @@
 <p><img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/rotatingtheboxleetcodewithstones.png" style="width: 300px; height: 150px;" /></p>
 
 <pre>
-<strong>Input:</strong> boxGrid = [[&quot;#&quot;,&quot;.&quot;,&quot;#&quot;]]
+<strong>Input:--</strong> boxGrid = [[&quot;#&quot;,&quot;.&quot;,&quot;#&quot;]]
 <strong>Output:</strong> [[&quot;.&quot;],
 &nbsp;        [&quot;#&quot;],
 &nbsp;        [&quot;#&quot;]]
