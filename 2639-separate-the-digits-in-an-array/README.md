@@ -7,12 +7,12 @@
 </ul>
 
 <p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+<p><strong class="example">Example 1:-</strong></p>
 
 <pre>
 <strong>Input:</strong> nums = [13,25,83,77]
-<strong>Output:</strong> [1,3,2,5,8,3,7,7]
-<strong>Explanation:</strong> 
+<strong>Output:-</strong> [1,3,2,5,8,3,7,7]
+<strong>Explanation:-</strong> 
 - The separation of 13 is [1,3].
 - The separation of 25 is [2,5].
 - The separation of 83 is [8,3].
