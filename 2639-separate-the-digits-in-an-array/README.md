@@ -20,13 +20,13 @@
 answer = [1,3,2,5,8,3,7,7]. Note that answer contains the separations in the same order.
 </pre>
 
-<p><strong class="example">Example 2:</strong></p>
+<p><strong class="example">Example 2:-</strong></p>
 
 <pre>
 <strong>Input:</strong> nums = [7,1,3,9]
 <strong>Output:</strong> [7,1,3,9]
 <strong>Explanation:</strong> The separation of each integer in nums is itself.
-answer = [7,1,3,9].
+answer = [7,1,3,9]..
 </pre>
 
 <p>&nbsp;</p>
