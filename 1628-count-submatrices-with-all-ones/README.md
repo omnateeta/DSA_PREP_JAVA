@@ -37,4 +37,4 @@ Total number of rectangles = 8 + 5 + 2 + 4 + 2 + 2 + 1 = 24.
 <ul>
 	<li><code>1 &lt;= m, n &lt;= 150</code></li>
 	<li><code>mat[i][j]</code> is either <code>0</code> or <code>1</code>.</li>
-</ul>
+</ul> // readme
