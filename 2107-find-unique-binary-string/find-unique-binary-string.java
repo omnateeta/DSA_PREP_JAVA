@@ -10,7 +10,7 @@ class Solution {
         
     }
 }
-
+End of the code
 /*
 n = 3
 1 0 1
