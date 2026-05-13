@@ -37,7 +37,6 @@ A total of 4 operations were used.
 <p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>m == grid.length</code></li>
 	<li><code>n == grid[i].length</code></li>
 	<li><code>1 &lt;= m, n &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= m * n &lt;= 10<sup>5</sup></code></li>
