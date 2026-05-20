@@ -16,10 +16,10 @@ class Solution {
                 common++;
             }
             
-            // Process B[i]
+            // Process B[i] 
             freq[B[i]]++;
             if (freq[B[i]] == 2) {
-                common++;
+                common++; 
             }
             
             ans[i] = common;
