@@ -1,3 +1,4 @@
+//1871. Jump Game VII
 // ===================================================
 // Solution 1: DFS + Memoization (TLE on large inputs)
 // Time: O(n * max), Space: O(n)
@@ -75,3 +76,4 @@ class Solution {
         return count > 0;
     }
 }
+//End of the code
