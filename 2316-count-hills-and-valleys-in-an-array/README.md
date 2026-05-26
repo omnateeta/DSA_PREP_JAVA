@@ -37,8 +37,3 @@ There are 0 hills and valleys so we return 0.
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>3 &lt;= nums.length &lt;= 100</code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 100</code></li>
-</ul>
