@@ -1,3 +1,4 @@
+//3120. Count the Number of Special Characters I
 class Solution {
     public int numberOfSpecialChars(String word) {
         int f1[] = new int[26];
