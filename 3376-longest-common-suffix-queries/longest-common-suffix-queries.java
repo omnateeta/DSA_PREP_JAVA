@@ -1,3 +1,4 @@
+//3093. Longest Common Suffix Queries
 class Solution {
     public int[] stringIndices(String[] words, String[] query) {
         Trie trie = new Trie();
