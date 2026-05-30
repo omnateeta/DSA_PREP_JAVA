@@ -1,3 +1,4 @@
+//3161. Block Placement Queries
 class Solution {
     public List<Boolean> getResults(int[][] queries) {
         int rmax = 500001;
