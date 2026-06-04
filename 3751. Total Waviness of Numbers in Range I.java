@@ -60,9 +60,9 @@
 
  
 
-// Constraints:
+// Constraints: 
 
-// 1 <= num1 <= num2 <= 105
+// 1 <= num1 <= num2 <= 105 
 
 
   class Solution {
