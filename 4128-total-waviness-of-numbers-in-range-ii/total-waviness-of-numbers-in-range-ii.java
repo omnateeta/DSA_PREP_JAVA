@@ -1,3 +1,4 @@
+//3753. Total Waviness of Numbers in Range II
 class Solution {
     Map<String, long[]> map;
 
@@ -78,3 +79,4 @@ class Solution {
         return result;
     }
 }
+//End of the program
