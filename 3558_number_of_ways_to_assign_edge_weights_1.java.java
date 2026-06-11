@@ -1,3 +1,4 @@
+//3558_number_of_ways_to_assign_edge_weights_1.java
 class Solution {
     int mod = 1_000_000_007;
 
