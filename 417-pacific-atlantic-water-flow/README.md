@@ -27,19 +27,19 @@
 &nbsp;      [3,1] -&gt; [4,1] -&gt; Atlantic Ocean
 [4,0]: [4,0] -&gt; Pacific Ocean 
        [4,0] -&gt; Atlantic Ocean
-Note that there are other possible paths for these cells to flow to the Pacific and Atlantic oceans.
+Note that there are other possible paths for these cells to flow to the Pacific and Atlantic oceans. 
 </pre>
 
-<p><strong class="example">Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p> 
 
 <pre>
-<strong>Input:</strong> heights = [[1]]
-<strong>Output:</strong> [[0,0]]
+<strong>Input:</strong> heights = [[1]] 
+<strong>Output:</strong> [[0,0]] 
 <strong>Explanation:</strong> The water can flow from the only cell to the Pacific and Atlantic oceans.
-</pre>
+</pre> 
 
 <p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+<p><strong>Constraints:</strong></p> 
 
 <ul>
 	<li><code>m == heights.length</code></li>
