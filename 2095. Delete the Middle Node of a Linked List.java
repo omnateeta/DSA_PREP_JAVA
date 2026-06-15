@@ -25,5 +25,5 @@ class Solution {
         slow.next = slow.next.next;
         return head;
     }
-}
-//End of the code
+} 
+//End of the code 
