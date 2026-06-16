@@ -42,5 +42,5 @@ Total score = 5 + 4 + 5 + 5 = 19.</pre>
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= x, y &lt;= 10<sup>4</sup></code></li>
-	<li><code>s</code> consists of lowercase English letters.</li>
+	<li><code>s</code> consists of lowercase English letters.and that's it</li>
 </ul>
