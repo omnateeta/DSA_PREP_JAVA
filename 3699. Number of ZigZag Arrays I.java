@@ -49,45 +49,45 @@ class Solution {
 // Solution 2: Bottom-Up DP with Prefix Sums (Optimal)
 // Time: O(n * m), Space: O(m) where m = r - l + 1
 // ===================================================
-class Solution {
-    public int zigZagArrays(int n, int l, int r) {
-        final int MOD = 1_000_000_007;
-        int m = r - l + 1; // Total distinct values; index j maps to value j + l
+// class Solution {
+//     public int zigZagArrays(int n, int l, int r) {
+//         final int MOD = 1_000_000_007;
+//         int m = r - l + 1; // Total distinct values; index j maps to value j + l
 
-        // Base layer: every single element is both an "up" and "down" start
-        long[] up   = new long[m]; // up[j]   = ways ending at value j, expecting next to go down
-        long[] down = new long[m]; // down[j] = ways ending at value j, expecting next to go up
-        Arrays.fill(up, 1);
-        Arrays.fill(down, 1);
+//         // Base layer: every single element is both an "up" and "down" start
+//         long[] up   = new long[m]; // up[j]   = ways ending at value j, expecting next to go down
+//         long[] down = new long[m]; // down[j] = ways ending at value j, expecting next to go up
+//         Arrays.fill(up, 1);
+//         Arrays.fill(down, 1);
 
-        for (int i = 2; i <= n; i++) {
-            // Prefix sum of down (left to right): used to fill newUp
-            long[] preDown = new long[m + 1]; // preDown[j] = down[0] + ... + down[j-1]
-            for (int j = 0; j < m; j++)
-                preDown[j + 1] = (preDown[j] + down[j]) % MOD;
+//         for (int i = 2; i <= n; i++) {
+//             // Prefix sum of down (left to right): used to fill newUp
+//             long[] preDown = new long[m + 1]; // preDown[j] = down[0] + ... + down[j-1]
+//             for (int j = 0; j < m; j++)
+//                 preDown[j + 1] = (preDown[j] + down[j]) % MOD;
 
-            // Suffix sum of up (right to left): used to fill newDown
-            long[] sufUp = new long[m + 1]; // sufUp[j] = up[j] + ... + up[m-1]
-            for (int j = m - 1; j >= 0; j--)
-                sufUp[j] = (sufUp[j + 1] + up[j]) % MOD;
+//             // Suffix sum of up (right to left): used to fill newDown
+//             long[] sufUp = new long[m + 1]; // sufUp[j] = up[j] + ... + up[m-1]
+//             for (int j = m - 1; j >= 0; j--)
+//                 sufUp[j] = (sufUp[j + 1] + up[j]) % MOD;
 
-            long[] newUp   = new long[m];
-            long[] newDown = new long[m];
-            for (int j = 0; j < m; j++) {
-                // newUp[j]: came from a down-step, so previous value must be < j
-                newUp[j]   = preDown[j];
-                // newDown[j]: came from an up-step, so previous value must be > j
-                newDown[j] = sufUp[j + 1];
-            }
+//             long[] newUp   = new long[m];
+//             long[] newDown = new long[m];
+//             for (int j = 0; j < m; j++) {
+//                 // newUp[j]: came from a down-step, so previous value must be < j
+//                 newUp[j]   = preDown[j];
+//                 // newDown[j]: came from an up-step, so previous value must be > j
+//                 newDown[j] = sufUp[j + 1];
+//             }
 
-            up = newUp;
-            down = newDown;
-        }
+//             up = newUp;
+//             down = newDown;
+//         }
 
-        // Sum all valid zigzag arrays across all ending values and directions
-        long ans = 0;
-        for (int j = 0; j < m; j++)
-            ans = (ans + up[j] + down[j]) % MOD;
-        return (int) ans;
-    }
-}
+//         // Sum all valid zigzag arrays across all ending values and directions
+//         long ans = 0;
+//         for (int j = 0; j < m; j++)
+//             ans = (ans + up[j] + down[j]) % MOD;
+//         return (int) ans;
+//     }
+// }
