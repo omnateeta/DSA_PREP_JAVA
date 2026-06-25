@@ -5,7 +5,7 @@
 	<li>If no such numbers are found, <strong>stop</strong> the process.</li>
 	<li>Otherwise, delete the two numbers and <strong>replace</strong> them with their <strong>LCM (Least Common Multiple)</strong>.</li>
 	<li><strong>Repeat</strong> this process as long as you keep finding two adjacent non-coprime numbers.</li>
-</ol>
+</ol> 
 
 <p>Return <em>the <strong>final</strong> modified array.</em> It can be shown that replacing adjacent non-coprime numbers in <strong>any</strong> arbitrary order will lead to the same result.</p>
  
