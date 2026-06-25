@@ -14,19 +14,19 @@
 <p>Two values <code>x</code> and <code>y</code> are <strong>non-coprime</strong> if <code>GCD(x, y) &gt; 1</code> where <code>GCD(x, y)</code> is the <strong>Greatest Common Divisor</strong> of <code>x</code> and <code>y</code>.</p>
 
 <p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p> 
 
-<pre>
-<strong>Input:</strong> nums = [6,4,3,2,7,6,2]
-<strong>Output:</strong> [12,7,6]
-<strong>Explanation:</strong> 
+<pre> 
+<strong>Input:</strong> nums = [6,4,3,2,7,6,2] 
+<strong>Output:</strong> [12,7,6] 
+<strong>Explanation:</strong>  
 - (6, 4) are non-coprime with LCM(6, 4) = 12. Now, nums = [<strong><u>12</u></strong>,3,2,7,6,2].
 - (12, 3) are non-coprime with LCM(12, 3) = 12. Now, nums = [<strong><u>12</u></strong>,2,7,6,2].
 - (12, 2) are non-coprime with LCM(12, 2) = 12. Now, nums = [<strong><u>12</u></strong>,7,6,2].
 - (6, 2) are non-coprime with LCM(6, 2) = 6. Now, nums = [12,7,<u><strong>6</strong></u>].
 There are no more adjacent non-coprime numbers in nums.
-Thus, the final modified array is [12,7,6].
-Note that there are other ways to obtain the same resultant array.
+Thus, the final modified array is [12,7,6]. 
+Note that there are other ways to obtain the same resultant array. 
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
