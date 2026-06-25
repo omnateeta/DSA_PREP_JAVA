@@ -8,15 +8,15 @@
 </ol>
 
 <p>Return <em>the <strong>final</strong> modified array.</em> It can be shown that replacing adjacent non-coprime numbers in <strong>any</strong> arbitrary order will lead to the same result.</p>
-
-<p>The test cases are generated such that the values in the final array are <strong>less than or equal</strong> to <code>10<sup>8</sup></code>.</p>
+ 
+<p>The test cases are generated such that the values in the final array are <strong>less than or equal</strong> to <code>10<sup>8</sup></code>.</p> 
 
 <p>Two values <code>x</code> and <code>y</code> are <strong>non-coprime</strong> if <code>GCD(x, y) &gt; 1</code> where <code>GCD(x, y)</code> is the <strong>Greatest Common Divisor</strong> of <code>x</code> and <code>y</code>.</p>
-
+ 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p> 
 
-<pre> 
+<pre>
 <strong>Input:</strong> nums = [6,4,3,2,7,6,2] 
 <strong>Output:</strong> [12,7,6] 
 <strong>Explanation:</strong>  
