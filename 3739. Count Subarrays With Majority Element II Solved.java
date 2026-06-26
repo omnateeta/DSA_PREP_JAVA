@@ -1,3 +1,4 @@
+//3739. Count Subarrays With Majority Element II
 class Solution {
     // Cost curve per pair (a = min, b = max):
     // [2, a] → 2 ops | [a+1, a+b-1] → 1 op | [a+b] → 0 ops | [a+b+1, b+lim] → 1 op | [b+lim+1, 2*lim] → 2 ops
