@@ -7,18 +7,18 @@ class Solution {
         HashMap<Long, Integer> hmap = new HashMap<>();
         int ones = 0;
         for (int num : nums) {
-            hmap.put((long) num, hmap.getOrDefault((long) num, 0) + 1);
+            hmap.put((long) num, hmap.getOrDefault((long) num, 0) + 1); 
             if (num == 1) ones++;
         }
 
         // 1^k is always 1, so any odd-length subsequence of 1s is valid
-        // If count is even, best odd length we can pick is ones-1
+        // If count is even, best odd length we can pick is ones-1 
         int ans = (ones % 2 == 0) ? ones - 1 : ones;
 
         // 1s are already handled — remove to avoid reprocessing in chain logic
         hmap.remove(1L);
 
-        for (long num : hmap.keySet()) {
+        for (long num : hmap.keySet()) { 
             int count = 0;
             long curr = num;
 
