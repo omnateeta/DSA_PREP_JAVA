@@ -51,4 +51,4 @@ class Solution {
 // 1 <= patterns.length <= 100
 // 1 <= patterns[i].length <= 100
 // 1 <= word.length <= 100
-patterns[i] and word consist of lowercase English letters.
+//patterns[i] and word consist of lowercase English letters.
