@@ -1,3 +1,4 @@
+//3286. Find a Safe Walk Through a Grid
 class Solution {
     int[][] dir = {{0,1},{1,0},{-1,0},{0,-1}};
     public boolean findSafeWalk(List<List<Integer>> arr, int health) {
