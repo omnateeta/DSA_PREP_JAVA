@@ -34,13 +34,50 @@
 // Explanation: The path from city 1 to 4 with the minimum score is: 1 -> 2 -> 1 -> 3 -> 4. The score of this path is min(2,2,4,7) = 2.
  
 
-Constraints:
+// Constraints:
 
-2 <= n <= 105
-1 <= roads.length <= 105
-roads[i].length == 3
-1 <= ai, bi <= n
-ai != bi
-1 <= distancei <= 104
-There are no repeated edges.
-There is at least one path between 1 and n.
+// 2 <= n <= 105
+// 1 <= roads.length <= 105
+// roads[i].length == 3
+// 1 <= ai, bi <= n
+// ai != bi
+// 1 <= distancei <= 104
+// There are no repeated edges.
+// There is at least one path between 1 and n.
+
+ class Solution {
+    public int minScore(int n, int[][] roads) {
+        List<int[]>[] graph = new ArrayList[n + 1];
+
+        for (int i = 1; i <= n; i++)
+            graph[i] = new ArrayList<>();
+
+        for (int[] r : roads) {
+            graph[r[0]].add(new int[]{r[1], r[2]});
+            graph[r[1]].add(new int[]{r[0], r[2]});
+        }
+
+        boolean[] vis = new boolean[n + 1];
+        Queue<Integer> q = new LinkedList<>();
+
+        q.offer(1);
+        vis[1] = true;
+
+        int ans = Integer.MAX_VALUE;
+
+        while (!q.isEmpty()) {
+            int node = q.poll();
+
+            for (int[] nei : graph[node]) {
+                ans = Math.min(ans, nei[1]);
+
+                if (!vis[nei[0]]) {
+                    vis[nei[0]] = true;
+                    q.offer(nei[0]);
+                }
+            }
+        }
+
+        return ans;
+    }
+}
