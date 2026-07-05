@@ -1,3 +1,4 @@
+//1301. Number of Paths with Max Score
 class Solution {
     public int[] pathsWithMaxScore(List<String> board) {
         int n = board.size();
