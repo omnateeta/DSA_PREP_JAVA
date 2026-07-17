@@ -3,7 +3,7 @@
 <p>For each query <code>i</code>, you have to find the following:</p>
 
 <ul>
-	<li>The <strong>minimum</strong> distance between the element at index <code>queries[i]</code> and <strong>any</strong> other index <code>j</code> in the <strong>circular</strong> array, where <code>nums[j] == nums[queries[i]]</code>. If no such index exists, the answer for that query should be -1.</li>
+	<li>The <strong>minimum</strong> distance between the element at index <code>queries[i]</code> and <strong>any</strong> other index <code>j</code> in the <strong>circular</strong> array, where <code>nums[j] == nums[queries[i]]</code>. If no such index exists, the answer for that query should be -1.</li> 
 </ul>
 
 <p>Return an array <code>answer</code> of the <strong>same</strong> size as <code>queries</code>, where <code>answer[i]</code> represents the result for query <code>i</code>.</p>
@@ -14,9 +14,9 @@
 <div class="example-block">
 <p><strong>Input:</strong> <span class="example-io">nums = [1,3,1,4,1,3,2], queries = [0,3,5]</span></p>
 
-<p><strong>Output:</strong> <span class="example-io">[2,-1,3]</span></p>
-
-<p><strong>Explanation:</strong></p>
+<p><strong>Output:</strong> <span class="example-io">[2,-1,3]</span></p> 
+ 
+<p><strong>Explanation:</strong></p>    
 
 <ul>
 	<li>Query 0: The element at <code>queries[0] = 0</code> is <code>nums[0] = 1</code>. The nearest index with the same value is 2, and the distance between them is 2.</li>
