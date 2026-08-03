@@ -1,24 +1,20 @@
 //1967. Number of Strings That Appear as Substrings in Word
-class Solution {
-    public int numOfStrings(String[] patterns, String word) {
-        int count = 0;
+class Solution {  
+    public int numOfStrings(String[] patterns, String word) {  
+        int count = 0;  
 
         for(String s : patterns) {
             // n*k*m
             // Optimal - (k+m)*n by KMP Algorithm 
-            if(word.indexOf(s)!=-1)
+            if(word.indexOf(s)!=-1)  
                 count++;
         }
         return count;
     }
 }
 
-
 // Given an array of strings patterns and a string word, return the number of strings in patterns that exist as a substring in word.
-
 // A substring is a contiguous sequence of characters within a string.
-
- 
 
 // Example 1:
 
@@ -51,4 +47,4 @@ class Solution {
 // 1 <= patterns.length <= 100
 // 1 <= patterns[i].length <= 100
 // 1 <= word.length <= 100
-//patterns[i] and word consist of lowercase English letters.
+//patterns[i] and word consist of lowercase English letters. 
