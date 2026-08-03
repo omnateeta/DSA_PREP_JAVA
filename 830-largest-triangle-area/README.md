@@ -12,12 +12,12 @@
 <p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>Input:</strong> points = [[1,0],[0,0],[0,1]]
+<strong>Input:</strong> points = [[1,0],[0,0],[0,1]] 
 <strong>Output:</strong> 0.50000
 </pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+ 
+<p>&nbsp;</p> 
+<p><strong>Constraints:</strong></p>//
 
 <ul>
 	<li><code>3 &lt;= points.length &lt;= 50</code></li>
