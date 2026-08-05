@@ -14,3 +14,4 @@ class Solution {
         return s.length() == 2 && s.charAt(0) == s.charAt(1);
     }
 }
+---
