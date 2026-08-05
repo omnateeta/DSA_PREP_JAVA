@@ -9,13 +9,13 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-
+ 
 <div class="example-block">
 <p><strong>Input:</strong> <span class="example-io">s = &quot;3902&quot;</span></p>
 
-<p><strong>Output:</strong> <span class="example-io">true</span></p>
+<p><strong>Output:</strong> <span class="example-io">true</span></p>.  
 
-<p><strong>Explanation:</strong></p>
+<p><strong>Explanation:</strong></p> 
 
 <ul>
 	<li>Initially, <code>s = &quot;3902&quot;</code></li>
