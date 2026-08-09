@@ -1,2 +1,2 @@
 # DSA_PREP_JAVA
-Here Some of the DSA Probles are collected along with solutions in java from the code bank.
+Here Some of the DSA Probles are collected along with solutions in java from the code bank.  
