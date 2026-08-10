@@ -4,13 +4,13 @@ class Solution {
 
     public int assignEdgeWeights(int[][] edges) {
         int n = edges.length + 1;
-
+   
         // Build undirected adjacency list
         HashMap<Integer, List<Integer>> hmap = new HashMap<>();
         for (int[] e : edges) {
             int s = e[0], d = e[1];
-            hmap.putIfAbsent(s, new ArrayList<>());
-            hmap.putIfAbsent(d, new ArrayList<>());
+            hmap.putIfAbsent(s, new ArrayList<>());   
+            hmap.putIfAbsent(d, new ArrayList<>());  
             hmap.get(s).add(d);
             hmap.get(d).add(s);
         }
@@ -57,4 +57,4 @@ class Solution {
 
         return (int) res;
     }
-}///End of the code
+}///End code
