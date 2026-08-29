@@ -2,9 +2,9 @@ class SegmentTree {
     int n;
     int[] minBalance;   // minimum balance value in this segment
     int[] maxBalance;   // maximum balance value in this segment
-    int[] lazyval;      // pending additions not yet propagated to children
+    int[] lazyval;       
 
-    public SegmentTree(int n) {
+    public SegmentTree(int n) {  
         this.n = n;
         // Array size is 4*n to accommodate complete binary tree structure
         // Node indexing: parent at i, left child at 2*i, right child at 2*i+1
