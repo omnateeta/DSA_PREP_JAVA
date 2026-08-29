@@ -37,23 +37,23 @@
 
 <p><strong class="example">Example 3:</strong></p>
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2,3,2]</span></p>
+<div class="example-block"> 
+<p><strong>Input:</strong> <span class="example-io">nums = [1,2,3,2]</span></p> 
 
-<p><strong>Output:</strong> <span class="example-io">3</span></p>
+<p><strong>Output:</strong> <span class="example-io">3</span></p>  
 
-<p><strong>Explanation:</strong></p>
-
+<p><strong>Explanation:</strong></p> 
+ 
 <ul>
-	<li>The longest balanced subarray is <code>[2, 3, 2]</code>.</li>
+	<li>The longest balanced subarray is <code>[2, 3, 2]</code>.</li> 
 	<li>It has 1 distinct even number <code>[2]</code> and 1 distinct odd number <code>[3]</code>. Thus, the answer is 3.</li>
-</ul>
-</div>
+</ul> 
+</div> 
 
-<p>&nbsp;</p>
+<p>&nbsp;</p> 
 <p><strong>Constraints:</strong></p>
 
-<ul>
+<ul> 
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
